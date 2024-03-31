@@ -22,7 +22,7 @@
         git add README.md
      #Commit changes to the "development" branch with a commit message.
         git commit -m "new commit"
-        git commit -u origin development
+        git push -u origin development
      #Merge changes from the "development" branch into the "main" branch.
         git chekout main
         git merge development
